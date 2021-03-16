@@ -7,10 +7,7 @@ import java.math.BigDecimal
 
 fun main() {
 
-    val lucas = Analista( "Lucas",  "123.123.123-12",2000.0)
+    val liryel = Analista( "liryel",  "123.123.123-12",5000.0)
 
-    imprimeRelatorio(lucas)
-
+    ImprimeRelatorioFuncionario.imprime(liryel)
 }
-
-fun imprimeRelatorio(funcionario: Funcionario) = println(funcionario.toString())
