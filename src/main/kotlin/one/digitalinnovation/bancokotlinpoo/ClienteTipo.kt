@@ -1,4 +1,6 @@
 package one.digitalinnovation.bancokotlinpoo
 
-enum class ClienteTipo {
+enum class ClienteTipo(val descricao: String) {
+    PF("Pessoa Física"),
+    PJ("Pessoa Jurídica")
 }
