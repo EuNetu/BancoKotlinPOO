@@ -12,7 +12,6 @@ abstract class Funcionario(
         Cpf: $cpf
         Salario: $salario
         Auxilio: ${calculoAuxilio()}
-        
         """.trimIndent()
 
 }
